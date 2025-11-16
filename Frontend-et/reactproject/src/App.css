@@ -1,0 +1,106 @@
+body {
+  margin: 0;
+  font-family: Arial, sans-serif;
+  background-color: #f1f3f6;
+  display: flex;
+  justify-content: center;
+  padding: 40px 0;
+}
+
+.container {
+  width: 600px;
+  padding: 30px;
+  background: linear-gradient(135deg, #2b5876, #4e4376);
+  border-radius: 12px;
+  box-shadow: 0 5px 20px rgba(0, 0, 0, 0.2);
+  color: white;
+}
+
+.heading {
+  text-align: center;
+  color: #ffdd57;
+  margin-bottom: 20px;
+}
+
+form {
+  display: flex;
+  flex-direction: column;
+  gap: 15px;
+}
+
+label {
+  font-weight: bold;
+  color: #fff;
+}
+
+input,
+select {
+  padding: 12px;
+  font-size: 16px;
+  border-radius: 6px;
+  border: none;
+  background-color: #fefefe;
+  color: #333;
+}
+
+button {
+  padding: 12px;
+  font-size: 16px;
+  border: none;
+  background-color: #00c9a7;
+  color: white;
+  border-radius: 6px;
+  cursor: pointer;
+}
+
+button:hover {
+  background-color: #009e84;
+}
+
+.vehicle-table {
+  width: 100%;
+  border-collapse: collapse;
+  margin-top: 20px;
+  background-color: white;
+  color: black;
+  border-radius: 8px;
+  overflow: hidden;
+}
+
+.vehicle-table th,
+.vehicle-table td {
+  border: 1px solid #ddd;
+  padding: 10px;
+  text-align: center;
+}
+
+.vehicle-table th {
+  background-color: #e3e8ee;
+}
+
+.delete-btn {
+  background-color: #ff4d4d;
+  color: white;
+  padding: 6px 12px;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+}
+
+.delete-btn:hover {
+  background-color: #cc0000;
+}
+
+.edit-btn {
+  background-color: #28a745;
+  color: white;
+  padding: 6px 12px;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+  margin-right: 5px;
+}
+
+.edit-btn:hover {
+  background-color: #1e7e34;
+}
