@@ -46,7 +46,7 @@ frontend:
   image: 2300033836/k8-helmfrontend1:latest
   replicas: 2
   port: 80
-  nodePort: 30080
+  nodePort: 30082
   resources:
     requests:
       cpu: "100m"
