@@ -24,7 +24,7 @@ mysql:
 backend:
   image: 2300033836/k8-helmbackend1:latest
   replicas: 2
-  port: 2000
+  port: 2009
   nodePort: 30024
   resources:
     requests:
